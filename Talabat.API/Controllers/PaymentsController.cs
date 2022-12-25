@@ -14,7 +14,7 @@ namespace Talabat.API.Controllers
     {
         private readonly IPaymentService _paymentService;
         private readonly ILogger _logger;
-        private const string _whSecret = "whsec_1f8043877fe28ee6a59bd7d1d52c24a4e3b927b4dc18acbc176ee61f18ce84fe";
+        private const string _whSecret = "";
 
         public PaymentsController(IPaymentService paymentService, ILogger logger)
         {
